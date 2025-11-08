@@ -1,0 +1,37 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  backdrop-filter: blur(16px) brightness(0.9);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  border-bottom: 1px solid rgba(202, 199, 198, 0.2);
+  transition: all 0.3s ease;
+}
+.nav:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.08));
+  border-bottom-color: rgba(202, 199, 198, 0.3);
+}
+.nav span {
+  font-size: 2rem;
+  background: linear-gradient(135deg, #CAC7C6, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 0.05em;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+.nav span:hover {
+  transform: translateY(-2px);
+}
+.nav span:first-child {
+  text-shadow: 0 0 20px rgba(202, 199, 198, 0.3);
+}
+
+/*# sourceMappingURL=navbar.module.css.map */
