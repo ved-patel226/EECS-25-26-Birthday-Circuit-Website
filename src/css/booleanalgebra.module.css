@@ -1,0 +1,20 @@
+.boolean_algebra {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+.boolean_algebra div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.boolean_algebra div h1 {
+  font-size: 3.5rem;
+}
+
+/*# sourceMappingURL=booleanalgebra.module.css.map */

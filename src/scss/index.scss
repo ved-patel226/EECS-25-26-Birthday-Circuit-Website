@@ -37,3 +37,13 @@ body {
 
     color: #CAC7C6;
 }
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline wavy;
+}
+
+a,
+p {
+    font-size: 1.5rem;
+}

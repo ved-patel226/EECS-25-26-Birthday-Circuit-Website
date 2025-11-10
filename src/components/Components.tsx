@@ -5,27 +5,32 @@ export default function Components() {
     {
       id: 1,
       name: "Arduino Nano",
-      description: "Compact microcontroller board based on ATmega328P",
+      description:
+        "The Ardiuno acts as the PLD (Programmable Logic Device) to change 3 bit input -> outputs for segments. We can get these boolean algebra expressions by Karnaugh maps",
     },
     {
       id: 2,
       name: "SSD",
-      description: "Solid State Drive for fast data storage",
+      description:
+        "The seven-segment display is used to show my birthday. We use two of them.",
     },
     {
       id: 3,
       name: "74LS93N",
-      description: "4-bit binary counter IC chip",
+      description:
+        "4-bit binary counter IC chip. This chip takes a clock input from the timer 555 and counts up with 4 bits.",
     },
     {
       id: 4,
       name: "Timer 555",
-      description: "Versatile precision timing IC for oscillators and timers",
+      description:
+        "The 555 timer generates a clock pulse that drives the 74LS93N counter. The pulse frequency determines how fast the display cycles through my birthday.",
     },
     {
       id: 5,
       name: "Potentiometer",
-      description: "Variable resistor for adjusting voltage or resistance",
+      description:
+        "A variable resistor used to adjust the resistance in the 555 timer circuit. Changing the resistance alters the timer's frequency, which controls how fast the display cycles through the birthday digits.",
     },
   ];
 
