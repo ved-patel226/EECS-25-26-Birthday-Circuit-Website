@@ -2,6 +2,8 @@ import NavBar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Components from "./components/Components";
 import BooleanAlgebra from "./components/BooleanAlgebra";
+import Reflection from "./components/Reflection";
+import Footer from "./components/Footer";
 
 import { useEffect } from "react";
 import { ScrollSmoother, ScrollTrigger } from "./utils/gsap";
@@ -45,6 +47,8 @@ function App() {
           <Hero />
           <BooleanAlgebra />
           <Components />
+          <Reflection />
+          <Footer />
         </div>
       </div>
     </ScrollToTop>

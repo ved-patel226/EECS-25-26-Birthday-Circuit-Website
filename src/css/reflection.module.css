@@ -1,4 +1,4 @@
-.boolean_algebra {
+.reflection {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -6,24 +6,17 @@
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
-  gap: 10vh;
 }
-.boolean_algebra .section {
+.reflection div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.boolean_algebra .section div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.boolean_algebra .section div h1 {
+.reflection div h1 {
   text-align: center;
   font-size: 3.5rem;
   margin-bottom: 1rem;
 }
 
-/*# sourceMappingURL=booleanalgebra.module.css.map */
+/*# sourceMappingURL=reflection.module.css.map */

@@ -25,4 +25,13 @@
             transform: translateY(-2px);
         }
     }
+
+    @media (max-width: 600px) {
+        justify-content: center;
+        align-items: center;
+
+        span:first-of-type {
+            display: none;
+        }
+    }
 }

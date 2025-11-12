@@ -24,5 +24,14 @@
 .nav span:hover {
   transform: translateY(-2px);
 }
+@media (max-width: 600px) {
+  .nav {
+    justify-content: center;
+    align-items: center;
+  }
+  .nav span:first-of-type {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=navbar.module.css.map */

@@ -74,11 +74,21 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+@media (max-width: 600px) {
+  .components .component_list .component_item .component_overlay h3 {
+    font-size: 1.2rem;
+  }
+}
 .components .component_list .component_item .component_overlay p {
   font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .components .component_list .component_item .component_overlay p {
+    font-size: 0.9rem;
+  }
 }
 
 /*# sourceMappingURL=components.module.css.map */
