@@ -39,7 +39,7 @@ p {
 }
 
 p {
-  max-width: 40%;
+  max-width: 60%;
 }
 @media (max-width: 600px) {
   p {

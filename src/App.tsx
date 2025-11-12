@@ -4,7 +4,7 @@ import Components from "./components/Components";
 import BooleanAlgebra from "./components/BooleanAlgebra";
 import Reflection from "./components/Reflection";
 import Footer from "./components/Footer";
-
+import Code from "./components/Code";
 import { useEffect } from "react";
 import { ScrollSmoother, ScrollTrigger } from "./utils/gsap";
 
@@ -46,6 +46,8 @@ function App() {
         <div id="smooth-content">
           <Hero />
           <BooleanAlgebra />
+          <Code />
+
           <Components />
           <Reflection />
           <Footer />
