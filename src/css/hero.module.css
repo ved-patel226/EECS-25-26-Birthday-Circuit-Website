@@ -42,9 +42,12 @@
   max-width: 100%;
   border-radius: 24px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18), 0 1.5px 6px rgba(0, 0, 0, 0.1);
-  border: 3px solid rgba(202, 199, 198, 0.2);
+  border: 3px solid rgba(230, 213, 184, 0.2);
   background: #faf9f8;
   transition: box-shadow 0.3s, transform 0.3s;
+}
+.hero .materials .videos .card .text {
+  padding-top: 2rem;
 }
 .hero .materials .videos .card .text h2 {
   font-size: 2.5rem;
@@ -59,7 +62,7 @@
 .hero .materials .videos .card .text .bullets li {
   font-size: 2rem;
   line-height: 1.8;
-  color: rgba(202, 199, 198, 0.85);
+  color: rgba(240, 165, 0, 0.85);
   padding-left: 1.5rem;
   position: relative;
 }
@@ -67,7 +70,7 @@
   content: "▸";
   position: absolute;
   left: 0;
-  color: #CAC7C6;
+  color: #F0A500;
 }
 
 /*# sourceMappingURL=hero.module.css.map */

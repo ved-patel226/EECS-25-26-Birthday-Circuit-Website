@@ -10,8 +10,8 @@
     align-items: center;
     padding: 1.5rem 2rem;
     backdrop-filter: blur(8px) invert(20%);
-    background: rgba(34, 34, 34, 0.7);
-    border: 3px solid rgba(202, 199, 198, 0.2);
+    background: rgba(27, 26, 23, 0.7);
+    border: 3px solid rgba(230, 213, 184, 0.2);
     transition: all 0.3s ease;
     border-radius: 12px;
 
@@ -21,7 +21,7 @@
         letter-spacing: 0.05em;
         transition: transform 0.3s ease;
 
-        color: #d6ab73;
+        color: #F0A500;
 
         &:hover {
             transform: translateY(-2px);

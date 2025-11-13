@@ -44,11 +44,11 @@
   width: 100%;
   height: auto;
   border-radius: 12px;
-  border: 3px solid rgba(202, 199, 198, 0.2);
+  border: 3px solid rgba(230, 213, 184, 0.2);
   transition: border-color 0.3s ease;
 }
 .components .component_list .component_item:hover img {
-  border-color: rgba(202, 199, 198, 0.4);
+  border-color: 3px solid rgba(230, 213, 184, 0.5);
 }
 .components .component_list .component_item .component_overlay {
   position: absolute;
@@ -56,7 +56,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(27, 26, 23, 0.85);
   backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
@@ -69,7 +69,7 @@
 .components .component_list .component_item .component_overlay h3 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #CAC7C6, #fff);
+  background: linear-gradient(135deg, #F0A500, #E45826);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -80,7 +80,7 @@
   }
 }
 .components .component_list .component_item .component_overlay p {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(240, 165, 0, 0.9);
   text-align: center;
   line-height: 1.5;
 }
