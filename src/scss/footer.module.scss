@@ -25,10 +25,15 @@
 
     .meta {
         display: flex;
-        flex-wrap: wrap;
-        gap: 1rem 2rem;
+        flex-direction: column;
+        gap: 0.5rem;
         justify-content: center;
+        align-items: flex-end;
         font-size: 1.1rem;
         letter-spacing: 0.04em;
+
+        span {
+            text-align: right;
+        }
     }
 }

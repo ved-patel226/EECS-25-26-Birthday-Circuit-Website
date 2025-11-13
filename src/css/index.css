@@ -35,7 +35,13 @@ a:hover {
 
 a,
 p {
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+
+h1,
+h2 {
+  font-family: "Migra", serif;
+  color: #d6ab73;
 }
 
 p {

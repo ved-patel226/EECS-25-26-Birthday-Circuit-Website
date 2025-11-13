@@ -16,10 +16,11 @@
   border-radius: 12px;
 }
 .nav span {
-  font-size: 2rem;
+  font-size: 3rem;
   background-clip: text;
   letter-spacing: 0.05em;
   transition: transform 0.3s ease;
+  color: #d6ab73;
 }
 .nav span:hover {
   transform: translateY(-2px);
