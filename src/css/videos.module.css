@@ -1,0 +1,80 @@
+@charset "UTF-8";
+.ttl_text {
+  margin-top: 20vh;
+  margin-bottom: 15vh;
+}
+.ttl_text h1,
+.ttl_text h2 {
+  text-align: center;
+}
+.ttl_text h1 {
+  font-size: 4rem;
+}
+.ttl_text h2 {
+  font-size: 1.5rem;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+.videos .card {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  min-width: 60vw;
+  gap: 2rem;
+}
+.videos .card .videoWrapper {
+  flex-shrink: 0;
+  width: 45vh;
+}
+.videos .card video {
+  height: 80vh;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 24px;
+  object-fit: cover;
+}
+.videos .card .text {
+  max-width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.videos .card .text .text_main h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  align-self: flex-start;
+}
+.videos .card .text .text_main .bullets {
+  list-style: none;
+  padding: 0;
+}
+.videos .card .text .text_main .bullets li {
+  font-size: 2rem;
+  line-height: 1.8;
+  color: rgba(240, 165, 0, 0.85);
+  padding-left: 1.5rem;
+  position: relative;
+}
+.videos .card .text .text_main .bullets li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #F0A500;
+}
+.videos .card .text .conclusion {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.7);
+  align-self: flex-start;
+  text-align: left;
+}
+
+/*# sourceMappingURL=videos.module.css.map */

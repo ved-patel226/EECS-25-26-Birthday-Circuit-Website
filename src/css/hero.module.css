@@ -1,76 +1,14 @@
-@charset "UTF-8";
 .hero {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30vh 2rem 4rem;
-}
-.hero .materials {
-  max-width: 800px;
-  width: 100%;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
 }
-.hero .materials h1,
-.hero .materials p {
-  text-align: center;
-  align-self: center;
-}
-.hero .materials h1 {
+.hero h1 {
   font-size: 3.5rem;
   letter-spacing: 0.02em;
-}
-.hero .materials p {
-  margin-bottom: 10vh;
-}
-.hero .materials .videos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20vh;
-}
-.hero .materials .videos .card {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  min-width: 40vw;
-  gap: 2rem;
-}
-.hero .materials .videos .card video {
-  height: 80vh;
-  max-width: 100%;
-  border-radius: 24px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18), 0 1.5px 6px rgba(0, 0, 0, 0.1);
-  border: 3px solid rgba(230, 213, 184, 0.2);
-  background: #faf9f8;
-  transition: box-shadow 0.3s, transform 0.3s;
-}
-.hero .materials .videos .card .text {
-  padding-top: 2rem;
-}
-.hero .materials .videos .card .text h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  text-align: left;
-  align-self: flex-start;
-}
-.hero .materials .videos .card .text .bullets {
-  list-style: none;
-  padding: 0;
-}
-.hero .materials .videos .card .text .bullets li {
-  font-size: 2rem;
-  line-height: 1.8;
-  color: rgba(240, 165, 0, 0.85);
-  padding-left: 1.5rem;
-  position: relative;
-}
-.hero .materials .videos .card .text .bullets li::before {
-  content: "▸";
-  position: absolute;
-  left: 0;
-  color: #F0A500;
 }
 
 /*# sourceMappingURL=hero.module.css.map */

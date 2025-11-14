@@ -3,28 +3,153 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 2rem;
-  gap: 10vh;
-}
-.boolean_algebra .section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 2rem;
-}
-.boolean_algebra .section div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 5rem;
+  padding: 10rem 2rem;
   flex-direction: column;
 }
-.boolean_algebra .section div h1 {
+.boolean_algebra .intro {
   text-align: center;
+  margin-bottom: 2rem;
+}
+.boolean_algebra .intro h1 {
   font-size: 3.5rem;
+}
+.boolean_algebra .intro .subtitle {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  max-width: 100%;
+}
+.boolean_algebra .main {
+  display: flex;
+  flex-direction: row;
+}
+.boolean_algebra .main .section {
+  max-width: 900px;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 2.5rem;
+}
+.boolean_algebra .main .section .section_header {
+  text-align: center;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+}
+.boolean_algebra .main .section .section_header .part_label {
+  display: inline-block;
+  background: rgba(240, 165, 0, 0.15);
+  color: #F0A500;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
+  border: 2px solid rgba(240, 165, 0, 0.3);
+}
+.boolean_algebra .main .section .section_header h2 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.boolean_algebra .main .section .content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.boolean_algebra .main .section .content .goal {
+  background: linear-gradient(135deg, rgba(240, 165, 0, 0.08), rgba(240, 165, 0, 0.03));
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 2px solid rgba(240, 165, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+.boolean_algebra .main .section .content .goal::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #F0A500, rgba(240, 165, 0, 0.3));
+}
+.boolean_algebra .main .section .content .goal h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.boolean_algebra .main .section .content .goal p {
+  line-height: 1.3;
+  max-width: 100%;
+  text-align: left;
+  margin-left: 1rem;
+}
+.boolean_algebra .main .section .content .description {
+  backdrop-filter: blur(8px);
+  background: rgba(27, 26, 23, 0.3);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 2px dashed rgba(240, 165, 0, 0.2);
+}
+.boolean_algebra .main .section .content .description p {
+  line-height: 1.3;
+  max-width: 100%;
+  text-align: left;
+  opacity: 0.9;
+}
+.boolean_algebra .main .section .content .problem_solution {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .boolean_algebra .main .section .content .problem_solution {
+    flex-direction: column;
+  }
+}
+.boolean_algebra .main .section .content .problem_solution .problems,
+.boolean_algebra .main .section .content .problem_solution .solutions {
+  flex: 1;
+  padding: 1.5rem;
+  border-radius: 16px;
+  position: relative;
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+}
+.boolean_algebra .main .section .content .problem_solution .problems h3,
+.boolean_algebra .main .section .content .problem_solution .solutions h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.boolean_algebra .main .section .content .problem_solution .problems p,
+.boolean_algebra .main .section .content .problem_solution .solutions p {
+  line-height: 1.3;
+  max-width: 100%;
+  text-align: left;
+}
+.boolean_algebra .main .section .content .problem_solution .problems {
+  background: linear-gradient(135deg, rgba(255, 100, 0, 0.05), rgba(255, 50, 0, 0.02));
+  border: 2px solid rgba(255, 100, 0, 0.3);
+  box-shadow: 0 4px 20px rgba(255, 100, 0, 0.1);
+}
+.boolean_algebra .main .section .content .problem_solution .problems h3 {
+  color: rgba(255, 120, 0, 0.9);
+}
+.boolean_algebra .main .section .content .problem_solution .problems p {
+  color: rgba(240, 165, 0, 0.85);
+}
+.boolean_algebra .main .section .content .problem_solution .solutions {
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.05), rgba(76, 175, 80, 0.02));
+  border: 2px solid rgba(76, 175, 80, 0.4);
+  box-shadow: 0 4px 20px rgba(76, 175, 80, 0.1);
+}
+.boolean_algebra .main .section .content .problem_solution .solutions h3 {
+  color: rgba(100, 200, 100, 0.9);
+}
+.boolean_algebra .main .section .content .problem_solution .solutions p {
+  color: rgba(240, 165, 0, 0.85);
 }
 
 /*# sourceMappingURL=booleanalgebra.module.css.map */

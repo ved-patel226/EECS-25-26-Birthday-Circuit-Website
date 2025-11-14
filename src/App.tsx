@@ -5,6 +5,8 @@ import BooleanAlgebra from "./components/BooleanAlgebra";
 import Reflection from "./components/Reflection";
 import Footer from "./components/Footer";
 import Code from "./components/Code";
+import Videos from "./components/Videos";
+
 import { useEffect } from "react";
 import { ScrollSmoother, ScrollTrigger } from "./utils/gsap";
 
@@ -26,7 +28,7 @@ function App() {
     window.scrollTo(0, 0);
 
     const smoother = ScrollSmoother.create({
-      smooth: 0.8,
+      smooth: 0.6,
       speed: 0.9,
       effects: true,
       wrapper: "#smooth-wrapper",
@@ -47,8 +49,8 @@ function App() {
           <Hero />
           <BooleanAlgebra />
           <Code />
-
           <Components />
+          <Videos />
           <Reflection />
           <Footer />
         </div>
