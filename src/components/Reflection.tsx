@@ -13,7 +13,7 @@ export default function Reflection() {
         algebra expressions using K-maps to find the correct boolean algebra
         expressions. Then, I made the circuit, with each additional stage
         leading more and more to the end goal of automation. As I built the
-        circuit, I programmed the Boolean expressions in C++ using the Arduino
+        circuit, I programmed the boolean expressions in C++ using the Arduino
         IDE. I really liked adding the Timer 555 because I didn't have to touch
         the circuit and I could watch it display my birthday. It was really cool
         seeing the automation work and display things without user input.
