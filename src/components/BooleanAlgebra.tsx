@@ -25,9 +25,10 @@ export default function BooleanAlgebra() {
 
             <div className={styles.description}>
               <p>
-                Truth tables are fundamental tools in digital logic design. They
-                list all possible input combinations and their outputs, allowing
-                me to model my birthday circuit.
+                To represent my birthday circuit using truth tables, I assign
+                the 3-bit input as the variables. Then, for each segment on each
+                SSD, I specify whether the segment should be on (1), off (0), or
+                don't care (X) in cases where the input is out of bounds.
               </p>
             </div>
           </div>
@@ -42,8 +43,6 @@ export default function BooleanAlgebra() {
             <div className={styles.goal}>
               <h3>🎯 Goal</h3>
               <p>
-                {/* Transform truth tables into K-maps and identify optimal groupings
-              to minimize boolean expressions in Sum of Products (SOP) form. */}
                 Transform the truth table into a K-map, then get the boolean
                 expressions in Sum of Products (SOP) form.
               </p>
@@ -51,9 +50,10 @@ export default function BooleanAlgebra() {
 
             <div className={styles.description}>
               <p>
-                K-maps provide a visual method for simplifying boolean
-                expressions. I created rectangular groups of 1s (and don’t cares
-                “X), making sure I am creating the largest rectangles possible.
+                For every truth table, I make rectangular groups of 1's or X's,
+                each group should contain 1, 2, 4, 8, etc. When doing this, you
+                want the rectangles to be as large as possible to simplify as
+                much as possible.
               </p>
             </div>
           </div>
@@ -68,8 +68,7 @@ export default function BooleanAlgebra() {
             <div className={styles.goal}>
               <h3>🎯 Goal</h3>
               <p>
-                Boolean Expression Simplification Convert K-map groups into
-                minimized boolean algebra expressions
+                Convert K-map groups into minimized boolean algebra expressions
               </p>
             </div>
 

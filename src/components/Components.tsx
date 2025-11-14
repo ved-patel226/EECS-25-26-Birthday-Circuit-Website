@@ -6,14 +6,14 @@ export default function Components() {
       id: 1,
       name: "Arduino Nano",
       description:
-        "The Ardiuno acts as the PLD (Programmable Logic Device) to change 3 bit input -> outputs for segments. We can get these boolean algebra expressions by Karnaugh maps",
+        "The Ardiuno acts as the PLD (Programmable Logic Device) to change 3 bit input into outputs for SSD segments. I can get these boolean algebra expressions by Karnaugh maps",
       pic: "imgs/ardiuno.jpg",
     },
     {
       id: 2,
       name: "SSD",
       description:
-        "The seven-segment display is used to show my birthday. We use two of them.",
+        "The seven-segment display is used to show my birthday. I used two of them.",
       pic: "imgs/SSD.jpg",
     },
     {
