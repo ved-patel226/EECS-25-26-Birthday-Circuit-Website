@@ -12,7 +12,7 @@
   margin-bottom: 2rem;
 }
 .boolean_algebra .intro h1 {
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 .boolean_algebra .intro .subtitle {
   font-size: 1.2rem;
@@ -76,7 +76,7 @@
   background: linear-gradient(180deg, #F0A500, rgba(240, 165, 0, 0.3));
 }
 .boolean_algebra .main .section .content .goal h3 {
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
 }

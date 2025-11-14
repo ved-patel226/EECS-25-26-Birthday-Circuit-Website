@@ -1,13 +1,12 @@
 .hero {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30vh 2rem 4rem;
   flex-direction: column;
 }
 .hero h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   letter-spacing: 0.02em;
 }
 

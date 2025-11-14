@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/EECS-24-25-Birthday-Circuit-Website/',
+  base: '/EECS-25-26-Birthday-Circuit-Website/',
   plugins: [react()],
 })

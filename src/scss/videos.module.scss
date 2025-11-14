@@ -8,7 +8,7 @@
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 2rem;
 
     }
 
@@ -40,7 +40,7 @@
         }
 
         video {
-            height: 80vh;
+            height: 100vh;
             width: 100%;
             max-width: 100%;
             border-radius: 24px;
@@ -48,15 +48,16 @@
         }
 
         .text {
-            max-width: 20vw;
+            max-width: 30vw;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
 
-            .text_main {
 
+
+            .text_main {
                 h2 {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                     margin-bottom: 1rem;
                     text-align: left;
                     align-self: flex-start;
@@ -67,7 +68,7 @@
                     padding: 0;
 
                     li {
-                        font-size: 2rem;
+                        font-size: 1.5rem;
                         line-height: 1.8;
                         color: rgba(240, 165, 0, 0.85);
                         padding-left: 1.5rem;
