@@ -77,6 +77,12 @@ p {
     text-indent: 2em;
 }
 
+.btns {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
 .btn {
     margin-top: 2rem;
     text-align: center;
