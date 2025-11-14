@@ -43,7 +43,7 @@ export default function Videos() {
     <>
       <div className={styles.ttl_text}>
         <h1>The Circuit</h1>
-        <h2>(hover to see videos)</h2>
+        <h2>(hover to see videos or click to open in new tab)</h2>
       </div>
 
       <div className={styles.videos}>
@@ -65,20 +65,30 @@ export default function Videos() {
               </div>
             )}
             <div className={styles.videoWrapper}>
-              <video
-                src={video.src}
-                loop
-                muted
-                playsInline
-                preload="auto" // load on website start
-                onMouseOver={(e) => e.currentTarget.play()}
-                onMouseOut={(e) => {
-                  e.currentTarget.pause();
-                  e.currentTarget.currentTime = 0;
-                }}
+              <a
+                href={video.src}
+                target="_blank"
+                rel="noopener noreferrer"
+                tabIndex={-1}
+                style={{ display: "block" }}
+                onClick={(e) => e.stopPropagation()}
               >
-                Your browser does not support the video tag.
-              </video>
+                <video
+                  src={video.src}
+                  loop
+                  muted
+                  playsInline
+                  preload="auto"
+                  onMouseOver={(e) => e.currentTarget.play()}
+                  onMouseOut={(e) => {
+                    e.currentTarget.pause();
+                    e.currentTarget.currentTime = 0;
+                  }}
+                  style={{ cursor: "pointer" }}
+                >
+                  Your browser does not support the video tag.
+                </video>
+              </a>
             </div>
             {index % 2 === 0 && (
               <div className={styles.text}>
